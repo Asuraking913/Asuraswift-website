@@ -7,9 +7,9 @@ function Head() {
         <nav className=''>
             <ul className='flex items-center gap-[4em]'>
                 {/* <li><a href="">Home</a></li> */}
-                <li><a className='text-[1.2rem] text-blue-600 font-semibold font-[roboto]' href="">About</a></li>
-                <li><a className='text-[1.2rem] text-blue-600 font-semibold font-[roboto]' href="">Developer?</a></li>
-                <li><a className='text-[1.2rem] text-blue-600 font-semibold font-[roboto]' href="">Feedback</a></li>
+                <li><a className='text-[1.2rem] text-blue-600 font-semibold font-[poppins]' href="">About</a></li>
+                <li><a className='text-[1.2rem] text-blue-600 font-semibold font-[poppins]' href="">Developer?</a></li>
+                <li><a className='text-[1.2rem] text-blue-600 font-semibold font-[poppins]' href="">Feedback</a></li>
             </ul>
         </nav>
     </div>

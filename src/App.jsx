@@ -4,7 +4,7 @@ import "./fonts/font-icons/css/all.min.css"
 
 function App() {
   return (
-    <div>
+    <div className='m-0 '>
       <Land />
     </div>
   )

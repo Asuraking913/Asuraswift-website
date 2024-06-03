@@ -2,30 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-    font-family: "baba";
-    src: url("../src/fonts/adbalumo/Agbalumo/Agbalumo-Regular.ttf");
-}
-
-@font-face {
-    font-family: "doodle";
-    src: url("../src/fonts/adbalumo/Rubik_Doodle_Shadow/RubikDoodleShadow-Regular.ttf");
-}
-
-@font-face {
-    font-family: "work";
-    src: url("../src/fonts/adbalumo/Workbench/static/Workbench-Regular.ttf");
-}
 
 
 @font-face {
     font-family: "roboto";
     src: url("../src/fonts/adbalumo/Roboto/Roboto-Regular.ttf");
-}
-
-@font-face {
-    font-family: "MON";
-    src: url("../src/fonts/adbalumo/Protest_Strike/Montserrat/Montserrat-Regular.ttf");
 }
 
 @font-face {
@@ -48,4 +29,20 @@
 
 .text6 {
     text-shadow: 0.5px 0.5px 0px #db2777;
+}
+
+.bgImg {
+    background-image: url("../src/assets/logo1.png");
+}
+
+.bgImg1 {
+    background-image: url("../src/assets/logo2.png");
+}
+
+.text1 {
+    text-shadow: 0px 0px 0px black;
+}
+
+.boxSha {
+    text-shadow: 0px 0px 4px black;
 }
