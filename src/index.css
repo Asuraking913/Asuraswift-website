@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "baba";
+    src: url("../src/fonts/adbalumo/Agbalumo/Agbalumo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "doodle";
+    src: url("../src/fonts/adbalumo/Rubik_Doodle_Shadow/RubikDoodleShadow-Regular.ttf");
+}
+
+@font-face {
+    font-family: "work";
+    src: url("../src/fonts/adbalumo/Workbench/static/Workbench-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "roboto";
+    src: url("../src/fonts/adbalumo/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "MON";
+    src: url("../src/fonts/adbalumo/Protest_Strike/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url("../src/fonts/adbalumo/Roboto/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "lit";
+    src: url("../src/fonts/adbalumo/Roboto/liltia/LilitaOne-Regular.ttf");
+}
+
+.boxSha {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.226);
+}
+
+.line {
+    line-height: 1.2em;
+}
+
+.text6 {
+    text-shadow: 0.5px 0.5px 0px #db2777;
+}
