@@ -6,9 +6,9 @@
 
 @font-face {
     font-family: "roboto";
-    src: url("../src/fonts/adbalumo/Roboto/Roboto-Regular.ttf");
+    src: url("../src/fonts/Roboto-Regular.ttf");
 }
-
+/* 
 @font-face {
     font-family: "poppins";
     src: url("../src/fonts/adbalumo/Roboto/Poppins/Poppins-Regular.ttf");
@@ -17,6 +17,16 @@
 @font-face {
     font-family: "lit";
     src: url("../src/fonts/adbalumo/Roboto/liltia/LilitaOne-Regular.ttf");
+} */
+
+@font-face {
+    font-family: "lit";
+    src: url("../src/fonts/LilitaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url("../src/fonts/Poppins-Regular.ttf");
 }
 
 .boxSha {
@@ -46,3 +56,62 @@
 .boxSha {
     text-shadow: 0px 0px 4px black;
 }
+
+.swiper-button-next, .swiper-button-prev {
+    background-color: #2563eb;
+    width: 4em;
+    border-radius: 50%;
+    height: 4em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next:hover {
+    background-color: white;
+    color: #2563eb;
+}
+
+.swiper-button-prev:hover {
+    background-color: white;
+    color: #2563eb;
+}
+
+.swiper-button-next {
+    padding-left: 0.5em;
+}
+
+.swiper-button-prev {
+    padding-right: 0.5em;
+}
+
+.poppins {
+    font-size: poppins;
+}
+
+
+.roboto {
+    font-size: roboto;
+}
+
+.text2 {
+    text-shadow: 0px 0px 4px white;
+}
+
+.lit {
+    font-size: "lit";
+}
+
+/* 
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+li::marker {
+    color: white;
+} */
