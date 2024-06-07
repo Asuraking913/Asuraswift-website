@@ -15,7 +15,9 @@ function Head() {
                   <li><a className='text-xl text-blue-600 hover:underline duration-[0.5s] roboto italic' title='About this software' href="">Download</a></li>
                 </Link>
                 <li><a className='text-xl text-blue-600 hover:underline duration-[0.5s] roboto italic' href="" title='Give your reviews on this app'>Feedback</a></li>
-                <li ><a className='text-xl title1 text-blue-600 hover:underline duration-[0.5s] roboto italic' title='Developers Information' href="">Developer?</a></li>
+                <Link to={"/dev"}>
+                  <li ><a className='text-xl title1 text-blue-600 hover:underline duration-[0.5s] roboto italic' title='Developers Information' href="">Developer?</a></li>
+                </Link>
             </ul>
         </nav>
     </div>

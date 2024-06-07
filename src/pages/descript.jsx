@@ -2,7 +2,6 @@ import React from 'react'
 import Steps from '../components/steps'
 import Head from '../components/header'
 import Foot from '../components/footer'
-import Dev from '../components/developer'
 
 function Descrip() {
   return (
@@ -21,7 +20,6 @@ function Descrip() {
                 </button>
             </div>
         </section>
-        <Dev />
         <Foot />
     </div>
   )
