@@ -16,10 +16,10 @@ import About from './about'
 function Body() {
   return (
     <>
-      <section className='flex p-[3em] pb-[0em] items-center h-[70vh]  justify-center'>
-          <div className='w-[65%] flex flex-col gap-[0.7em] mt-[2em]'>
-              <h1 className='text-4xl font-[poppins] font-extrabold capitalize text-blue-600'>A desktop <span className='uppercase'>GUI</span> application that <span className='block'>transfers files on a cross platform basis</span></h1>
-              <p className='w-[80%] text- roboto italic text-xl line '>AsuraSwift is a cross platform desktop gui application that uses a simple gui interface to transfer files between two computers. </p>
+      <section className='flex sm:p-[3em] pb-[0em] items-center h-[70vh]  justify-center'>
+          <div className='sm:w-[65%] w-[90%] flex flex-col sm:items-start items-center gap-[0.7em] mt-[2em]'>
+              <h1 className='sm:text-4xl sm:text-left text-center text-3xl font-[poppins] font-extrabold capitalize text-blue-600'>A desktop <span className='uppercase'>GUI</span> application that <span className='sm:block'>transfers files on a cross platform basis</span></h1>
+              <p className='w-[80%] text-center sm:text-left roboto italic text-xl line '>AsuraSwift is a cross platform desktop gui application that uses a simple gui interface to transfer files between two computers. </p>
             <div className='flex gap-[2em] mt-[8em]'>
               <a href=""><i className='fa-brands hover:scale-125 duration-[0.5s] text-2xl text-blue-600 fa-facebook'></i></a>
               <a href=""><i className='fa-brands hover:scale-125 duration-[0.5s] text-2xl text-blue-600 fa-linkedin'></i></a>
@@ -30,7 +30,7 @@ function Body() {
           </div>
       
           <div>
-            <div className='h-[400px] w-[400px] bg-center'><img src={myImage} className='text1' alt="" /></div>
+            <div className='h-[400px] hidden sm:block w-[400px] bg-center'><img src={myImage} className='text1' alt="" /></div>
             {/* <div className='w-[200px] h-[200px]'></div> */}
           </div>
       </section>

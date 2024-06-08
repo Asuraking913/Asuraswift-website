@@ -7,6 +7,7 @@ import About from './components/about'
 import Developer from './pages/dev'
 
 function App() {
+
   return (
     <div className='m-0 '>
       <Router>
