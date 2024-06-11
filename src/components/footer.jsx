@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 
 function Foot() {
   return (
-    <section className='border-t-2 border-blue-600 bg-white p-[1em] sm:p-[2em] pt-[2em] flex flex-col justify-between items-center gap-[4em] '>
+    <section className='border-t-2 border-blue-600 bg-white p-[1em] sm:p-[2em] sm:pt-[2em] flex flex-col justify-between items-center'>
         <ul className='sm:flex hidden sm:flex-row items-center justify-center gap-[4em] '>
                 {/* <li><a href="">Home</a></li> */}
                 <Link to={"/descrip"}>
-                  <li><a className='text-xl text-blue-600  roboto italic' href=""><i className='fa-solid hover:scale-125 duration-[0.5s] text-2xl mr-[5px] text-black fa-download'></i>Download</a></li>
+                  <li><a className='text-xl text-blue-600  roboto italic' href=""><i className='fa-solid hover:scale-125 duration-[0.5s] sm:text-2xl mr-[5px] text-black fa-download'></i>Download</a></li>
                 </Link>
                 <li><a className='text-xl text-blue-600  roboto italic' href=""><i className='fa-solid hover:scale-125 duration-[0.5s] text-2xl mr-[5px] text-black fa-reply'></i>Feedback</a></li>
                 
@@ -17,20 +17,20 @@ function Foot() {
                 <li><a className='text-xl text-blue-600  roboto italic' href=""><i className='fa-brands hover:scale-125 duration-[0.5s] text-2xl mr-[5px] text-black fa-github'></i>Github</a></li>
                 
             </ul>
-            <ul className='sm:hidden flex gap-[1em]'>
+            <ul className='sm:hidden flex justify-center gap-[.5em]'>
                 {/* <li><a href="">Home</a></li> */}
                 <div>
                   <Link to={"/descrip"}>
-                    <li><a className='text-xl text-blue-600  roboto italic' href=""><i className='fa-solid hover:scale-125 duration-[0.5s] text-2xl mr-[5px] text-black fa-download'></i>Download</a></li>
+                    <li><a className='text-[1em] text-blue-600  roboto italic' href=""><i className='fa-solid hover:scale-125 min-[300px]:text-[1em] duration-[0.5s] text-[1em] mr-[5px] text-black fa-download'></i>Download</a></li>
                   </Link>
-                  <li><a className='text-xl text-blue-600  roboto italic' href=""><i className='fa-solid hover:scale-125 duration-[0.5s] text-2xl mr-[5px] text-black fa-reply'></i>Feedback</a></li>
+                  <li><a className='text[1em] text-blue-600  roboto italic' href=""><i className='fa-solid hover:scale-125 min-[300px]:text-[1em] duration-[0.5s] text-[1em] mr-[5px] text-black fa-reply'></i>Feedback</a></li>
                 </div>
                 
-                <h2 className='text-2xl font-[lit] text-center font-bold text-blue-600'><span className='text-yellow-300'>Asura</span>Swift</h2>
+                <h2 className='text-[1em] font-[lit] text-center font-bold text-blue-600'><span className='text-yellow-300'>Asura</span>Swift</h2>
                 
                 <div>
-                  <li><a className='text-xl text-blue-600  roboto italic' href=""><i className='fa-solid hover:scale-125 duration-[0.5s] text-2xl mr-[5px] text-black fa-person'></i>Developer</a></li>
-                  <li><a className='text-xl text-blue-600  roboto italic' href=""><i className='fa-brands hover:scale-125 duration-[0.5s] text-2xl mr-[5px] text-black fa-github'></i>Github</a></li>
+                  <li><a className='text[1em] text-blue-600  roboto italic' href=""><i className='fa-solid hover:scale-125 min-[300px]:text-[1em] duration-[0.5s] text-2xl mr-[5px] text-black fa-person'></i>Developer</a></li>
+                  <li><a className='text-xl text-blue-600  roboto italic' href=""><i className='fa-brands hover:scale-125 min-[300px]:text-[1em] duration-[0.5s] text-2xl mr-[5px] text-black fa-github'></i>Github</a></li>
                 </div>
                 
             </ul>

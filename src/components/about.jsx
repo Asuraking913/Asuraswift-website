@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 function About() {
 
   return (
-    <section className='text-center py-[0em] px-[4em] flex flex-col justify-center items-center'>
+    <section className='text-center py-[0em] sm:px-[4em] min-[300px]:px-[1em] flex flex-col justify-center items-center'>
             <h2 className='text-3xl text-blue-600 font-bold mb-[1em]'>About AsuraSwift</h2>
             <div className='w-[100%]'>
                 <p className='text-xl italic'>

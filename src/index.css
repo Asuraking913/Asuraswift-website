@@ -85,6 +85,14 @@
     padding-right: 0.5em;
 }
 
+.class1 .swiper-button-next, .swiper-button-prev {
+    width: 3em;
+    border-radius: 50%;
+    height: 3em;
+    background-color: transparent;
+    color: #2563eb;
+}
+
 .poppins {
     font-size: poppins;
 }
